@@ -5,12 +5,20 @@ package idwall.desafio.string;
  */
 public abstract class StringFormatter {
 
-    protected Integer limit;
-    protected boolean justify;
+    private Integer limit;
+    private boolean justify;
 
     public StringFormatter(Integer limit, boolean justify) {
         this.limit = limit;
         this.justify = justify;
+    }
+
+    public Integer getLimit() {
+        return limit;
+    }
+
+    public boolean isJustify() {
+        return justify;
     }
 
     /**
