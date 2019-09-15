@@ -6,9 +6,11 @@ package idwall.desafio.string;
 public abstract class StringFormatter {
 
     protected Integer limit;
+    protected boolean justify;
 
-    public StringFormatter(Integer limit) {
+    public StringFormatter(Integer limit, boolean justify) {
         this.limit = limit;
+        this.justify = justify;
     }
 
     /**
