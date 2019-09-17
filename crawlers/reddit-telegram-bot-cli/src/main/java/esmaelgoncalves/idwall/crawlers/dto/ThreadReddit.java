@@ -1,4 +1,4 @@
-package esmaelgoncalves.idwall.crawlers.reddittelegrambot.model;
+package esmaelgoncalves.idwall.crawlers.dto;
 
 import lombok.Builder;
 import lombok.Data;
