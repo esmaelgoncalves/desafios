@@ -50,7 +50,8 @@ public class ApiClientService {
                 System.out.println("Nenhum conteúdo encontrado.");
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Desculpe!\nNão conseguimos nos conectar aos servidores da NASA para buscar os melhores conteúdos.");
+
         }
 
     }
