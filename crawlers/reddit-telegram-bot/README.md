@@ -15,7 +15,7 @@ Para isso foi utilizado a ferramenta JSoup.
 * A API/Crawler está disponível na AWS para testes em: `http://ec2-54-207-16-239.sa-east-1.compute.amazonaws.com:8080`
 * SWAGGER: `http://ec2-54-207-16-239.sa-east-1.compute.amazonaws.com:8080/swagger-ui.html`
 
-##Para rodar local
+## Para rodar local
 Configurações da aplicação:
 
     telegram.bot.name= (name telegram bot - definido no @BotFather)
@@ -24,7 +24,7 @@ Configurações da aplicação:
     reddit.url.base= (url de base do reddit - http://old.reddit.com)
     reddit.min-votes= (quantidade mínimas de votos para considerar uma thread)
     
-###DOCKER
+### DOCKER
 * Execute o script run.bat ou run.sh
 
 ou na pasta do projeto:
