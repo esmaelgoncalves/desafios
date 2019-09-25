@@ -95,7 +95,12 @@ public class IdwallFormatter extends StringFormatter {
                     actualLen = words[i].length() + 1;
                 }
             }
+            lineRepresentantion.remove(lineRepresentantion.size() - 1);
             resultLines.add(lineRepresentantion);
+
+            if (isJustify()) {
+                justifyResultLines(lineRepresentantion);
+            }
         }
 
         return getStringResult(resultLines);
